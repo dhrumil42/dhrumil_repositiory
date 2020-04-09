@@ -1,4 +1,4 @@
-package util;
+package com.example.util;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import Model.Article;
+import com.example.model.Article;
 
 public class GetTopCompaniesForNews {
 

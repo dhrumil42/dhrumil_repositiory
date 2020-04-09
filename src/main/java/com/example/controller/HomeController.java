@@ -1,4 +1,4 @@
-package Controller;
+package com.example.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,13 +31,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.example.model.Article;
+import com.example.model.NewsSearchResult;
+import com.example.util.GetNews;
+import com.example.util.GetTopCompaniesForNews;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
-
-import Model.Article;
-import Model.NewsSearchResult;
-import util.GetNews;
-import util.GetTopCompaniesForNews;
 
 
 @RestController
